@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica js</title>
+</head>
+
+<body>
+
+    <script>
+        // Declaracion de variables
+        var nombre = "Facundo"
+        let apellido = "Gonzalez"
+        const edad = 34;
+
+        console.log(nombre)
+
+        let person = {
+            nombre: "Facu",
+            apellido: "Gonzalez",
+            edad: 28,
+            dni: 38563677
+        }
+
+        console.log(person)
+
+        let list = ["pan", "leche en polvo", "azucar"]
+        var lista = ["pan", "leche en polvo", "azucar"]
+
+        function suma(sumando1, sumando2) {
+            const resultado = sumando1 + sumando2;
+            return resultado;
+        }
+
+        let resultadoSuma = suma(1, 2);
+        let resultado2 = suma(3, 4);
+
+        console.log(`El resultado de la suma es: ${resultadoSuma}`)
+
+        console.log(`El resultado de la suma es: ${resultado2}`)
+
+
+
+
+        function suma(sum1, sum2) {
+            console.log(sum1 + sum2)
+        }
+        function resta(sum1, sum2) {
+            console.log(sum1 - sum2)
+        }
+
+        let operacion = "sumar"
+
+        if (operacion === "sumar") {
+            suma(1, 2)
+        } else if (operacion === "restar") {
+            resta(2, 1)
+        }
+
+    </script>
+
+</body>
+
+</html>
