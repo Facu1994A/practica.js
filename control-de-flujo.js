@@ -36,6 +36,21 @@ a === b se evalua tanto tipo de dato como valor en si. */
 /* a != b se evalua si tienen distinto valor
 a !== b se evalua si son distinto valor y tipo */
 
+/* !Estructuras Repetitivas */
+
+/* a > b
+a >= b */
+
+/* a < b
+a <= b */
+
+/* !Operadores Aritmeticos */
+/* Suma +
+Resta -
+Multiplicar X
+Dividir /
+Potencia ** ej: 2**4 */
+
 
 /* if (a !== b) {
     console.log("Es cierto que son distintos");
@@ -95,9 +110,84 @@ switch (dia) {
 } */
 
 
-! Estructuras Repetitivas
+/* !Estructuras Repetitivas */
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
+/* a > b
+a >= b */
+
+/* a < b
+a <= b */
+
+/* !Operadores Aritmeticos */
+/* Suma +
+Resta -
+Multiplicar X
+Dividir /
+Potencia ** ej: 2**4 */
+
+/* for (let i = 0; i < 11; i++) {
+    console.log(i);
+    console.log("8 x " + i + " = " + 8 * i) 
+
+Template String
+    console.log(`8 x ${i} = ${8 * i}`)
+} */
+
+/* let index = 0;
+index < array.lenght;
+index++ */
+
+/* let value = false
+while (value === false){
+    console.log("Estoy dentro del bucle")
+    value = false
+} */
+
+/* ENTRA EN BUCLE */
+
+/* console.log("Estoy fuera del bucle")
+
+let value = true;
+do{
+console.log("Estoy dentro del bucle")
+value = false
+}
+while(false) */
+
+/* ! Operador Ternario */
+
+let dia = 3;
+
+(dia === 1)
+    ? console.log("lunes")
+    : (dia === 2)
+        ? console.log("martes")
+        : (dia === 3)
+            ? console.log("miercoles")
+            : (dia === 4)
+                ? console.log("jueves")
+                : (dia === 5)
+                    ? console.log("viernes")
+                    : (dia === 6)
+                        ? console.log("sabado")
+                        : (dia === 7)
+                            ? console.log("domingo")
+
+                            : console.log("Valor ingresado incorrecto")
+
+if (true) {
+    (true) ? console.log("Ok") : console.log("No Ok")
+}
+
+/* let dia = 1;
+(dia === 1)
+    ? console.log("Lunes")
+
+    : console.log("Martes") */
+
+
+let listaCompras = ["Pan", "Mayonesa", "Tomate", "Milanesas"]
+
+for (const item of listaCompras) {
+    console.log(item)
 }
